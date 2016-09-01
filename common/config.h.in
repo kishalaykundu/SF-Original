@@ -1,0 +1,7 @@
+// custom-defined macros passed through cmake flags
+#pragma once
+
+#cmakedefine SF_DOUBLE_PRECISION
+#cmakedefine SF_VECTOR3_ENABLED
+#cmakedefine SF_VECTOR4_ENABLED
+#cmakedefine SF_NO_PRINT

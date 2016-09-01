@@ -1,0 +1,8 @@
+<SFDriverConfig>
+	<interface type="display" config="/home/kish1/Projects/SF/config/GLConfig.xml" />
+
+	<!--plugin name="libCudaXfem-debug.so" config="/home/kish1/Projects/SF/config/XFEMConfig.xml" /-->
+	<!--plugin name="libCudaMsd-debug.so" config="/home/kish1/Projects/SF/config/MSDConfig.xml" /-->
+	<plugin name="libCpuMsd-debug.so" config="/home/kish1/Projects/SF/config/MSDConfig.xml" />
+	<!--plugin name="libRigid-debug.so" config="/home/kish1/Projects/SF/config/RigidConfig.xml" /-->
+</SFDriverConfig>

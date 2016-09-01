@@ -1,0 +1,6 @@
+<SFDriverConfig>
+	<interface type="display" config="/home/kish1/Projects/SF/config/GLConfig.xml" />
+
+	<plugin name="libRigid.so" config="/home/kish1/Projects/SF/config/RigidConfig.xml" />
+	<plugin name="libCudaXfem.so" config="/home/kish1/Projects/SF/config/XFEMConfig.xml" />
+</SFDriverConfig>

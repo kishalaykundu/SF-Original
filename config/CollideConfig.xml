@@ -1,0 +1,6 @@
+<islTriCollideConfig>
+	<meshFile name="/home/kish1/Data/Scalpel/scalpel.tri.xml" />
+	<!--meshFile name="/home/kish1/Data/Retractor/retractor.tri.xml" /-->
+	<meshFile name="/home/kish1/Data/Kidney/Mesh/kidney.tri.xml" />
+	<!--meshFile name="/home/kish1/Data/Cube/cube.tri.xml" /-->
+</islTriCollideConfig>

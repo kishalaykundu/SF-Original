@@ -1,0 +1,25 @@
+#! /bin/sh
+
+make
+
+mv ./driver/runsim ~/Projects/bin/
+
+mv ./plugins/collision/TriCollide/libTriCollide*.so ~/Projects/lib/
+mv ./plugins/physics/Rigid/libRigid*.so ~/Projects/lib/
+mv ./plugins/physics/CPU_MSD/libCpuMsd*.so ~/Projects/lib/
+mv ./plugins/physics/CU_MSD/libCudaMsd*.so ~/Projects/lib/
+mv ./plugins/physics/CU_XFEM/libCudaXfem*.so ~/Projects/lib/
+
+mv ./plugins/physics/CU_XFEM/CudaXFEM_xfem.cu.ptx ~/Projects/bin/
+mv ./plugins/physics/CU_MSD/CudaMSD_msd.cu.ptx ~/Projects/bin/
+
+mv ./test/area1/test1 ~/Projects/bin/
+mv ./test/area2/test2 ~/Projects/bin/
+mv ./test/area3/test3 ~/Projects/bin/
+
+mv ./utils/AppleMaker/applemake ~/Projects/bin/
+mv ./utils/BladeExtract/bladeExtract ~/Projects/bin/
+mv ./utils/EditMesh/edit-mesh ~/Projects/bin/
+mv ./utils/NaiveShader/naiveshade ~/Projects/bin/
+mv ./utils/TestKitchen/testkitchen ~/Projects/bin/
+mv ./utils/VHSliceEditor/voxedit ~/Projects/bin/

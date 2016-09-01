@@ -1,0 +1,10 @@
+<SFXFEMConfig>
+
+	<threadpool size="8" />
+
+	<!--configFile name="/home/kish1/Data/Cube/cube.fem.xml" /-->
+	<!--configFile name="/home/kish1/Data/Apple/Mesh/apple.fem.xml" /-->
+	<configFile name="/home/kish1/Data/Melon/Mesh/melon.fem.xml" />
+	<!--configFile name="/home/kish1/Data/Kidney/Mesh/kidney.fem.xml" /-->
+
+</SFXFEMConfig>

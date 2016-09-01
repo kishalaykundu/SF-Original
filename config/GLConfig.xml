@@ -1,0 +1,13 @@
+<SFGLConfig>
+	<dimensions width="512" height="512"/>
+	<position X="50" Y="50"/>
+
+	<!--background color="0.7 0.7 0.7"/-->
+	<background color="1.0 1.0 1.0"/>
+	<camera position="0.0 0.0 0.0"/>
+
+	<light0 direction=".0 -1. -.3" ambient=".1 .1 .1" diffuse=".2 0. 0." specular=".5" exp="150."/>
+
+	<environmentmap endian_swap="yes" home="/home/kish1/Data/CubeMap/"
+		posx="or2.pfm" negx="or4.pfm" posz="or5.pfm" negz="or3.pfm" posy="or1.pfm" negy="or6.pfm"/>
+</SFGLConfig>

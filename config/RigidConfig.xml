@@ -1,0 +1,4 @@
+<SFRigidConfig>
+	<configFile name="/home/kish1/Data/Scalpel/scalpel.rigid.xml" />
+	<!--configFile name="/home/kish1/Data/Retractor/retractor.rigid.xml" /-->
+</SFRigidConfig>
